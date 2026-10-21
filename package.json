@@ -3,7 +3,7 @@
   "name": "clipboard-editor",
   "title": "Clipboard Editor",
   "description": "Edit your clipboard text",
-  "icon": "icon.png",
+  "icon": "assets/icon.png",
   "author": "almatkai",
   "categories": [
     "Productivity"
