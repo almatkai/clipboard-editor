@@ -1,0 +1,19 @@
+[package]
+name = "tezbar-clipboard-editor-v2"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.85"
+license = "MIT AND Apache-2.0"
+description = "Compiled-in Native V2 Clipboard Editor for Tezbar"
+repository = "https://github.com/almatkai/clipboard-editor"
+include = ["src/**", "tests/**", "assets/**", "manifest.json", "tezbar_adapter.rs", "README.md", "LICENSE", "Cargo.lock", "Cargo.toml"]
+
+[dependencies]
+serde_json = "=1.0.145"
+
+[dev-dependencies]
+tokio = { version = "=1.48.0", features = ["macros", "rt"] }
+sha2 = "=0.10.9"
+jsonschema = { version = "=0.29.1", default-features = false }
+log = "=0.4.28"
+tempfile = "=3.23.0"
