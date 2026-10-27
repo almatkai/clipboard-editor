@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 2,
+  "id": "com.tezbar.native.clipboard-editor",
+  "slug": "clipboard-editor",
+  "name": "Clipboard Editor",
+  "version": "0.1.0",
+  "description": "Edit your clipboard text. Original extension: pomdtr; Tezbar adaptation: almatkai.",
+  "icon": "/extensions/icons/clipboard-editor.png",
+  "runtime": "rust",
+  "replaces": ["raycast.clipboard-editor"],
+  "platforms": ["macOS", "Windows"],
+  "commands": [{
+    "name": "edit-clipboard-text",
+    "title": "Edit Clipboard Content",
+    "description": "Edit your clipboard text",
+    "mode": "view",
+    "platforms": ["macOS", "Windows"],
+    "runtime": "rust"
+  }],
+  "verification": [
+    {"platform": "macOS", "state": "not-run"},
+    {"platform": "Windows", "state": "not-run"}
+  ]
+}
